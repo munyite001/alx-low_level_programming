@@ -5,10 +5,10 @@
 /**
  * main - Entry point
  * outputs - "Programming is like building a multilingual puzzle
- * Returns 0
+ * Return:  0 (Success)
  */
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
-	return 0;
+	return (0);
 }
