@@ -1,10 +1,12 @@
 #include <stdio.h>
 
 /**
- * main: print all combinations of single digits
+ * main - print all combinations of single digits
  *
  * Description: Print all possible combinations of single
  * digit numbers
+ *
+ * Return: 0 Success
  */
 
 int main(void)
