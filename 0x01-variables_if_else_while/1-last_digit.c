@@ -3,14 +3,14 @@
 #include <stdio.h>
 /* more headers goes there */
 
-/* betty style doc for function main goes there */
 /**
- * Main: Entry Point
- * Description: Get the last digit of n
+ * main- Get the last digit of a number
+ *
+ * Description: using the main function, this program
+ * prints if the digit is positive 0 or negative
  * Return: 0 success
 */
 
-/* Entry Point*/
 int main(void)
 {
 	int n, ld;
