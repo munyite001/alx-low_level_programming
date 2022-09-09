@@ -6,10 +6,11 @@
 /* betty style doc for function main goes there */
 /*
  * Function Main: Entry Point
- * Description: Get the last digit of n then check if it is 0 or bigger than 5 or 6
+ * Description: Get the last digit of n 
  * Return: 0 success
 */
 
+/* Entry Point*/
 int main(void)
 {
 	int n, ld;
