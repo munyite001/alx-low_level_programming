@@ -3,7 +3,7 @@
 
 
 /**
- * Main: print all hexadecimal symbls
+ * main -  print all hexadecimal symbols
  * Description: Print all base 16 numbers
  * Return: 0 Success
 */
@@ -20,9 +20,9 @@ int main(void)
 			n = 'a';
 		}
 		putchar(n);
-		n+=1;
+		n += 1;
 	}
 	putchar('\n');
 
-	return 0;
+	return (0);
 }
