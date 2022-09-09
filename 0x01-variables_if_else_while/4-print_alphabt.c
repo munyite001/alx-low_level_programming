@@ -11,18 +11,19 @@ int main(void)
 {
 	char n = 'a';
 	int i;
+
 	for (i = 0; i < 26; i++)
 	{
 		if (n == 'q' || n == 'e')
 		{
-			n+=1;
+			n += 1;
 		}
 		else
 		{
 			putchar(n);
-			n+=1;
+			n += 1;
 		}
 	}
- 	putchar('\n');
-	return 0;
+	putchar('\n');
+	return (0);
 }
