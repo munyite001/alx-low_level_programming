@@ -4,7 +4,7 @@
 
 /**
  * Entry Point: Main
- * Operation: Print lowercase letters of the alphabet
+ * Description: Print lowercase letters of the alphabet
  * Return: 0 Success
 */
 
