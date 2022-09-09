@@ -11,13 +11,14 @@ int main(void)
 {
 	char n = 'a';
 	char x = 'A';
+	int i,y = 0;
 
-       	for (int i = 0; i < 26; i++)
+       	for (i = 0; i < 26; i++)
 	{
 		putchar(n);
 		n += 1;
 	}
-	for(int y = 0; y < 26; y++)
+	for(y = 0; y < 26; y++)
 	{
 		putchar(x);
 		x += 1;
