@@ -4,9 +4,9 @@
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
-/*
- * Function Main: Entry Point
- * Description: Get the last digit of n 
+/**
+ * Main: Entry Point
+ * Description: Get the last digit of n
  * Return: 0 success
 */
 
