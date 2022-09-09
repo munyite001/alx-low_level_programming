@@ -3,7 +3,7 @@
 
 
 /**
- * Main: print alphabets in reverse
+ * main -  print alphabets in reverse
  * Description: Print lowercase letters of the alphabet in reverse
  * Return: 0 Success
 */
@@ -12,6 +12,7 @@ int main(void)
 {
 	char n = 'z';
 	int i;
+
 	for (i = 0; i < 26; i++)
 	{
 		putchar(n);
@@ -19,5 +20,5 @@ int main(void)
 	}
 	putchar('\n');
 
-	return 0;
+	return (0);
 }
