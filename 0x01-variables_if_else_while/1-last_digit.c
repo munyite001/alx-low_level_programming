@@ -5,8 +5,8 @@
 
 /* betty style doc for function main goes there */
 /*
- * Entry Point: Main
- * Does: Get the last digit of a number n then check if it is 0 or bigger than 5 or 6
+ * Main: Entry Point
+ * Does: Get the last digit of n then check if it is 0 or bigger than 5 or 6
  * Return: 0 success
 */
 
