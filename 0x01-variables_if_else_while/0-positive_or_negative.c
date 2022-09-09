@@ -5,9 +5,10 @@
 
 /* betty style doc for function main goes there */
 /**
- * main: Entry Point
- * Print wether n is positvie, zero, o negative
- * Return: 0 Success
+ * main - print wether a number is positive or negative
+ * 
+ * Description: Check if n is positive, 0 or negative
+ *  Return: 0 Success
  */
 
 int main(void)
