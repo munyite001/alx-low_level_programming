@@ -20,17 +20,3 @@ void print_alphabet(void)
 
 	_putchar('\n');
 }
-
-/**
- * main - calls the print_alphabet function
- * Description: calls the print_alphabet function
- * to print all the letters of the alphabet
- *
- * Return: 0
- */
-
-int main(void)
-{
-	print_alphabet();
-	return (0);
-}
