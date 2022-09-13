@@ -26,11 +26,12 @@ void times_table(void)
 			{
 				if (result < 10)
 				{
-					printf("%d, ", result);
+					printf("%d,  ", result);
 				}
+
 				else
 				{
-					printf("%d,  ", result);
+					printf("%d, ", result);
 				}
 			}
 			j += 1;
