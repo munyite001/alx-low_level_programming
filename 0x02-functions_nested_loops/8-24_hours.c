@@ -10,7 +10,10 @@
 
 void jack_bauer(void)
 {
-	int i, j, k, l = 0;
+	int i = 0;
+	int j = 0;
+	int k = 0;
+	int l = 0;
 
 	while (i < 3)
 	{
@@ -23,10 +26,13 @@ void jack_bauer(void)
 					printf("%i%i:%i%i\n", i, j, k, l);
 					l++;
 				}
+				l = 0;
 				k++;
 			}
+			k = 0';
 			j++;
 		}
+		j = 0;
 		i++;
 	}
 }
