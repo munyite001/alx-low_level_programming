@@ -1,5 +1,6 @@
 #include "main.h"
 #include <string.h>
+
 /**
  * main - prints "_putchar" to the screen
  * Description: a simple program that prints
@@ -22,5 +23,5 @@ int main(void)
 	}
 	_putchar('\n');
 
-
+	return (0);
 }
