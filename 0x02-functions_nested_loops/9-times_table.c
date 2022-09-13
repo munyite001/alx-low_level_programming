@@ -33,7 +33,7 @@ void times_table(void)
 					printf("%d,  ", result);
 				}
 			}
-
+			result = i * j;
 			j += 1;
 		}
 		j = 0;
