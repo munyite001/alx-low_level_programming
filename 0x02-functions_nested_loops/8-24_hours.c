@@ -12,28 +12,16 @@ void jack_bauer(void)
 {
 	int i = 0;
 	int j = 0;
-	int k = 0;
-	int l = 0;
 
-	while (i < 3)
+	while (i <= 23)
 	{
-		while (j < 4)
+		while (j < 60)
 		{
-			while (k < 6)
-			{
-				while (l < 10)
-				{
-					printf("%i%i:%i%i\n", i, j, k, l);
-					l++;
-				}
-				l = 0;
-				k++;
-			}
-			k = 0;
-			j++;
+			printf("%.2d:%.2d\n", i, j );
+			j += 1;
 		}
 		j = 0;
-		i++;
+		i += 1;
 	}
 }
 
