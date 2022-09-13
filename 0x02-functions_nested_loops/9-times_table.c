@@ -24,7 +24,7 @@ void times_table(void)
 			}
 			else
 			{
-				printf("%d, ", result);
+				printf("%d,  ", result);
 			}
 
 			j += 1;
