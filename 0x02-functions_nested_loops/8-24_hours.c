@@ -9,7 +9,7 @@
  */
 
 void jack_bauer(void)
-{
+{i
 	int i, j, k, l = 0;
 
 	while (i < 3)
@@ -20,7 +20,7 @@ void jack_bauer(void)
 			{
 				while ( l < 10)
 				{
-					printf("%d%d:%d%d", i, j, k, l);
+					printf("%i%i:%i%i\n", i, j, k, l);
 					l++;
 				}
 				k++;
