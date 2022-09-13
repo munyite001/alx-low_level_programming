@@ -29,7 +29,7 @@ void jack_bauer(void)
 				l = 0;
 				k++;
 			}
-			k = 0';
+			k = 0;
 			j++;
 		}
 		j = 0;
