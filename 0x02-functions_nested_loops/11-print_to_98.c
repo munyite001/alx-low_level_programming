@@ -22,7 +22,7 @@ void print_to_98(int n)
 	}
 	else if (n == 98)
 	{
-		j == 0;
+		j = 0;
 	}
 
 	while (i <= 98)
