@@ -24,14 +24,14 @@ void times_table(void)
 			}
 			else
 			{
-				if (result < 10)
+				if (i * j+1 > 9)
 				{
-					printf("%d,  ", result);
+					printf("%d, ", result);
 				}
 
 				else
 				{
-					printf("%d, ", result);
+					printf("%d,  ", result);
 				}
 			}
 			j += 1;
