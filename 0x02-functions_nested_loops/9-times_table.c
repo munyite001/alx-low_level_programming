@@ -3,14 +3,14 @@
 
 /**
  * times_table - print the 9 times table
- * Description: prints the nines times table from 
+ * Description: prints the nines times table from
  * 0 all the way to 9
  * Returns: nothing
  */
 
 void times_table(void)
 {
-	int i,j = 0;
+	int i, j = 0;
 
 	while (i < 10)
 	{
@@ -24,8 +24,10 @@ void times_table(void)
 			{
 				printf("%d, ", j * i);
 			}
+
 			j += 1;
 		}
+		j = 0;
 		i += 1;
 	}
 }
