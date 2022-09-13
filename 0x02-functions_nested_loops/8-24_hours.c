@@ -3,7 +3,7 @@
 
 /**
  * jack_bauer - print all seconds of a day
- * Description: print all seconds of a day 
+ * Description: print all seconds of a day
  * starting from 00:00 to 23:59
  * Return: nothing
  */
@@ -21,7 +21,7 @@ void jack_bauer(void)
 		{
 			while (k < 6)
 			{
-				while ( l < 10)
+				while (l < 10)
 				{
 					printf("%i%i:%i%i\n", i, j, k, l);
 					l++;
