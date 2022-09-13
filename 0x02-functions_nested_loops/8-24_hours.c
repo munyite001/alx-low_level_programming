@@ -17,7 +17,7 @@ void jack_bauer(void)
 	{
 		while (j < 60)
 		{
-			printf("%.2d:%.2d\n", i, j );
+			printf("%.2d:%.2d\n", i, j);
 			j += 1;
 		}
 		j = 0;
