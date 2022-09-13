@@ -1,5 +1,4 @@
 #include "main.h"
-#include <string.h>
 
 /**
  * main - prints "_putchar" to the screen
@@ -14,7 +13,7 @@ int main(void)
 {
 	char str[] = "_putchar";
 	int i = 0;
-	int j = strlen(str);
+	int j = 8;
 
 	while (i < j)
 	{
