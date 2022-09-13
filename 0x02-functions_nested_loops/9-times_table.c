@@ -11,12 +11,13 @@
 void times_table(void)
 {
 	int i, j = 0;
-	int result = i * j;
+	int result;
 
 	while (i < 10)
 	{
 		while (j < 10)
 		{
+			result = i * j;
 			if (j == 9)
 			{
 				printf("%d\n", result);
