@@ -10,31 +10,41 @@
 void print_to_98(int n)
 {
 	int i = n;
-	int j;
 	
 	if (n < 98)
 	{
-		j = 1;
+		while (i <= 98)
+		{
+			if (i == 98)
+			{
+				printf("%d", i);
+			}
+			else
+			{
+				printf("%d, ", i);
+			}
+
+			i += 1;
+		}
+
 	}
 	else if (n > 98)
 	{
-		j = -1;
+		while (i >= 98)
+		{
+			if (i == 98)
+			{
+				printf("%d", i);
+			}
+			else
+			{
+				printf("%d, ", i);
+			}
+			i -= 1;
+		}
 	}
 	else if (n == 98)
 	{
-		j = 0;
-	}
-
-	while (i != 98)
-	{
-		if (i == 98)
-		{
-			printf("%d", i);
-		}
-		else 
-		{
-			printf("%d, ",i);
-		}
-		i += j;
+		printf("%d", i);
 	}
 }
