@@ -14,13 +14,14 @@ void print_alphabet_x10(void)
 
 	while (j < 10)
 	{
-		i = 0;
 		while (i < 26)
 		{
 			_putchar(n);
 			n += 1;
 			i += 1;
 		}
+		i = 0;
+		n = 'a';
 		j += 1;
 		_putchar('\n');
 	}
