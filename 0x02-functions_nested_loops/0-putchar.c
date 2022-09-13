@@ -1,5 +1,5 @@
-#include <stdio.h>
-
+#include "main.h"
+#include <string.h>
 /**
  * main - prints "_putchar" to the screen
  * Description: a simple program that prints
@@ -11,6 +11,16 @@
 
 int main(void)
 {
-	printf("_putchar\n");
-	return (0);
+	char str[] = "_putchar";
+	int i = 0;
+	int j = strlen(str);
+
+	while (i < j)
+	{
+		_putchar(str[i]);
+		i++;
+	}
+	_putchar('\n');
+
+
 }
