@@ -24,7 +24,7 @@ void times_table(void)
 			}
 			else
 			{
-				if (result > 8)
+				if (result >= 10)
 				{
 					printf("%d, ", result);
 				}
