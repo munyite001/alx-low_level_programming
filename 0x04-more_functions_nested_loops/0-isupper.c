@@ -12,6 +12,7 @@ int _isupper(char c)
 	{
 		return (1);
 	}
+
 	return (0);
 }
 
