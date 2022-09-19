@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * print_array - prints a given number of elements of an array
@@ -9,11 +10,15 @@
 
 void print_array(int *a, int n)
 {
-	int i = 0;
+	int inc;
 
-	while (i < n)
+	for (inc = 0; inc < n ; inc++)
 	{
-		_putchar(*(a + i));
-		i += 1;
+		if (inc != n - 1)
+			printf("%d, ", a[inc]);
+		else
+			printf("%d", a[inc]);
+
 	}
+	_putchar('\n');
 }
