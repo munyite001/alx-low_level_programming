@@ -22,7 +22,7 @@ void puts_half(char *str)
 	}
 	else
 	{
-		n = i / 2;
+		n = (i / 2) + 1;
 	}
 
 	while (*(str + n) != '\0')
