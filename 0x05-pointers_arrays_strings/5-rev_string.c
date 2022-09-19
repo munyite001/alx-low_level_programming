@@ -2,13 +2,13 @@
 #include "string.h"
 /**
  * rev_string - reverses a string
- * @c: pointer to a string
+ * @s: pointer to a string
  * Return: nothing
  */
 
 void rev_string(char *s)
 {
-	char str[];
+	char *str;
 	int len;
 	int i = 0;
 
