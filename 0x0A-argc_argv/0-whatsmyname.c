@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
  * main - print the program name
@@ -7,6 +6,7 @@
  * @argv: array of strings representing the arguments
  * Return: Success 0
  */
+
 int main(int argc, char *argv[])
 {
 	char *name = argv[0];
@@ -14,9 +14,8 @@ int main(int argc, char *argv[])
 
 	while (name[i] != '\0')
 	{
-		putchar(name[i]);
+		_putchar(name[i]);
 		i++;
 	}
-	putchar('\0');
-	putchar('\n');
+	_putchar('\n');
 }
