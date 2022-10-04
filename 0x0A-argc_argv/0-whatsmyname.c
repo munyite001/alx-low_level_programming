@@ -17,5 +17,6 @@ int main(int argc, char *argv[])
 		putchar(name[i]);
 		i++;
 	}
+	putchar('\0');
 	putchar('\n');
 }
