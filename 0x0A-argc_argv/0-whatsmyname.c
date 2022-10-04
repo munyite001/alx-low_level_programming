@@ -10,16 +10,7 @@
 
 int main(int argc, char *argv[])
 {
-	char *name = argv[0];
-	int i = 0;
-
-	while (name[i] != '\0')
-	{
-		putchar(name[i]);
-	}
-	putchar(name[i]);
-
+	printf("%s\n", argv[0]);
 	void(argc);
-
 	return (0);
 }
