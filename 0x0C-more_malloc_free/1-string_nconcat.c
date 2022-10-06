@@ -50,7 +50,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 		concat_str[x++] = s2[i];
 	}
 
-	concat[x] = '\0';
+	concat_str[x] = '\0';
 
 	return (concat_str);
 
