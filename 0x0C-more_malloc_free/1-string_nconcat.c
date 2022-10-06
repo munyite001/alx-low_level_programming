@@ -3,12 +3,12 @@
 
 /**
  * string_nconcat - concatenates two strings
- * @s1 - the first string
- * @s2 - the second string
- * @n - Maximum number of bytes of string s2 to concatenate to string s1
+ * @s1: the first string
+ * @s2: the second string
+ * @n: Maximum number of bytes of string s2 to concatenate to string s1
  *
  * Return: NULL - if failed
- * else - a pointer to the newly allocated space in memory
+ * else a pointer to the newly allocated space in memory
  * which contains s1 followed by the first n bytes of s2
  */
 
@@ -21,7 +21,7 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 	{
 		s1 = "";
 	}
-	if (s2 == "NULL")
+	if (s2 == NULL)
 	{
 		s2 = "";
 	}
