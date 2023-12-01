@@ -41,7 +41,8 @@ void print_all(const char * const format, ...)
 			str == NULL ? printf("(nil)") : printf("%s", str);
 		}
 
-		printf(", ");
+		if (format[i] && format[i + 1] && strchr("cifs", format[i]))
+			printf(", ");
 		i++;
 	}
 	printf("\n");
